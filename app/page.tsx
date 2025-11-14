@@ -1,8 +1,6 @@
 import FileUploadContainer from "@/components/file-upload-container";
 
 export default function Home() {
-  const currentYear = new Date().getFullYear();
-
   return (
     <main className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
       {/* Background Effects */}
