@@ -7,7 +7,7 @@ export const getAiResult = async (prompt: string, file: File) => {
     const arrayBuffer = await file.arrayBuffer();
     const base64String = Buffer.from(arrayBuffer).toString("base64")
     const result = await generateText({
-        model: google('gemini-2.5-flash'),
+        model: google('gemini-2.5-flash-lite'),
         messages: [
             {
                 role: 'user',
