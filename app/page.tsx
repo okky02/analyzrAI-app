@@ -25,13 +25,13 @@ export default function Home() {
           <FileUploadContainer />
 
           {/* Footer */}
-          <footer className="mt-8 ">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-3">
-              <div className="text-gray-300 text-sm order-2 sm:order-1">
+          <footer className="mt-8">
+            <div className="flex justify-between items-center gap-3">
+              <div className="text-gray-300 text-sm">
                 © 2025 Okky Dhelfilano
               </div>
 
-              <div className="order-1 sm:order-2">
+              <div>
                 <div className="inline-flex items-center gap-2 bg-blue-800/10 border border-blue-500 rounded-full px-3 py-1.5">
                   <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></div>
                   <span className="text-xs text-blue-300 font-medium">
